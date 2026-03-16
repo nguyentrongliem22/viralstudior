@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Preview__preview_start",
+      "Bash(where node:*)",
+      "Bash(where npm:*)",
+      "Bash(where python:*)",
+      "Bash(where php:*)",
+      "Bash(export PATH=\"/c/Program Files/nodejs:$PATH\")",
+      "Bash(npm --version)",
+      "Bash(npm install:*)",
+      "Bash(netstat -ano)",
+      "Bash(taskkill //PID 27076 //F)",
+      "Bash(grep -E '\\\\.\\(css|js|html\\)$|^d')"
+    ]
+  }
+}
